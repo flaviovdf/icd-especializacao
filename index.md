@@ -1,10 +1,10 @@
 ---
 layout: page
-title: ICD-Bradesco
+title: ICD-Especialização
 nav_exclude: true
 seo:
   type: Course
-  name: Introdução à Ciência de Dados (Bradesco)
+  name: Introdução à Ciência de Dados
 ---
 
 # {{ site.tagline }}
@@ -15,8 +15,6 @@ seo:
 ---
 
 {: .no_toc .mb-2 }
-
-![](https://upload.wikimedia.org/wikipedia/commons/a/a6/Banco_Bradesco_logo_%28horizontal%29.png)
 
 ## Ementa
 
@@ -34,8 +32,7 @@ geográficos e redes sociais, é realizado com os discentes.
 O objetivo da disciplina é apresentar técnicas básicas de
 ciência de dados. Em particular, queremos ensinar os
 discentes o básico de programação e estatística para
-realizar o ciclo de trabalho do cientista de dados
-(descrição, inferência e predição).
+realizar o ciclo de trabalho do cientista de dados.
 
 ## Livros
 
