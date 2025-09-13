@@ -1,4 +1,4 @@
-# Introdução à Ciência de Dados (Bradesco)
+# Introdução à Ciência de Dados (Especialização)
 
 Material do curso de Introdução à Ciência de Dados que será
-lecionado para o banco Bradesco.
+lecionado para a Especialização da UFMG.
