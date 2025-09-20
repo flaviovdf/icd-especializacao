@@ -5,24 +5,24 @@ description: Guia Rápido de Referência do Curso.
 nav_order: 4
 ---
 
-# Referência do Curso FCD.
+# Referência do Curso ICD.
 
 ---
 
 ## Bibliotecas
 
 - `numpy` cuida de operações com vetores e matrizes
-- `babypandas` uma versão simplificada da biblioteca pandas, cuida de tabelas
+- `pandas` biblioteca pandas, cuida de tabelas
 - `matplotlib` gera gráficos, não fazemos uso de matplotlib avançado
 
-Durante o restante desse guia, `df` é um DataFrame, `ser` é uma Série, `arr` é um array. `babypandas` foi importado como `bpd` e `numpy` como `np`.
+Durante o restante desse guia, `df` é um DataFrame, `ser` é uma Série, `arr` é um array. `pandas` foi importado como `pd` e `numpy` como `np`.
 
 ## Construindo e Organizando DataFrames
 
 Cada função/método abaixo cria um novo DataFrame. Lembre-se de salvá-lo!
 
-- `bpd.DataFrame()`: Cria um DataFrame vazio.
-- `bpd.read_csv(caminho_para_arquivo)`: Cria um DataFrame a partir de um arquivo CSV.
+- `pd.DataFrame()`: Cria um DataFrame vazio.
+- `pd.read_csv(caminho_para_arquivo)`: Cria um DataFrame a partir de um arquivo CSV.
 - `df.assign(nome_da_coluna=dados_da_coluna)`: Adiciona/substitui uma coluna.
 - `df.drop(columns=nome_da_coluna ou [col_1_nome, ... col_k_nome])`: Remove coluna(s).
 - `df.set_index(nome_da_coluna)`: Move uma coluna para o índice.
